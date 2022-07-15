@@ -1,0 +1,143 @@
+
+#navbar1 {
+    background-color: rgba(81, 78, 78, 0.87);
+    
+  }
+  .nav-item {
+    margin: 5px;
+  }
+  
+  .nav-link2 {
+    color: rgb(182, 172, 172);
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  
+  .nav-link3 {
+    color: rgb(182, 172, 172);
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  .nav-link4 {
+    color: rgb(33, 191, 33);
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+
+
+#buenos-aires{
+  
+  opacity:1.5;
+    
+
+}
+
+#texto-presentacion{
+    
+        
+  padding-top: 300px;
+  padding-bottom: 100px;
+  padding-right: 70px;
+  padding-left: 800px;
+        width: auto;
+        color:white;
+        font-size:21px;
+        text-align:right;
+        
+      }
+#conf{
+    float: right;
+    width: 700px;
+    color:white;
+    text-align:right;
+
+}
+#btn-verde{
+    color:rgb(33, 191, 33);
+    color:white;
+}
+
+
+#tarjetas{
+    display: block;
+
+    text-align: center;
+   
+}
+.conoce{
+    font-size:15px;
+    padding:0px;
+    margin:1px;
+}
+.oradores{
+    padding:0px;
+    margin:0px;
+}
+
+#tarjetas.card{
+    
+    text-justify:normal;
+}
+.col-4 .btn{
+    padding:0px;
+} 
+.col-12{
+    width:100%;
+}
+.col-6{
+width:50%;
+margin:0;
+}
+.col-4{
+    width:33.3%;
+}
+#playa{
+    border: solid gray 0.5px;
+    margin-top:10px;
+    padding:0px;
+    
+}
+#honolulu{
+    background-color:rgb(81, 78, 78);
+    color:white;
+    text-align:left;
+    
+
+}
+#form{
+ text-align:center;
+ margin: auto;
+  width: 50%;
+  
+  padding: 10px;
+}
+#recuerda{
+    float:left;
+}
+#enviar{
+    width:100%;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+  }
+  .total{
+    color:rgba(11, 11, 109, 0.711);
+    text-align:left;
+    margin:5px;
+  }
+
+#footer {
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(35, 35, 82),
+      rgb(69, 166, 199)
+    );
+    color: white;
+  
+  }
