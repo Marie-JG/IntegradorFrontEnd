@@ -51,7 +51,7 @@
         <div class="card-body">
           <h4 class="card-text">Estudiante</h4>
           <p class="card-text">Tienen un descuento</p>
-          <h3 id="descuentoEstudiante">80%</h3>
+          <h3><span id="descuentoEstudiante">80</span>%</h3>
           <p class="condicion text-muted">*Presentar documentación</p>
         </div>
       </div>
@@ -60,7 +60,7 @@
         <div class="card-body">
           <h4 class="card-text">Trainee</h4>
           <p class="card-text">Tienen un descuento</p>
-          <h3 id="descuentoTrainee">50%</h3>
+          <h3><span id="descuentoTrainee">50</span>%</h3>
           <p class="condicion text-muted">*Presentar documentación</p>
 
         </div>
@@ -70,7 +70,7 @@
         <div class="card-body">
           <h4 class="card-text">Junior</h4>
           <p class="card-text">Tienen un descuento</p>
-          <h3 id="descuentoJunior">15%</h3>
+          <h3><span id="descuentoJunior">15</span>%</h3>
           <p class="condicion text-secondary">*Presentar documentación</p>
 
         </div>
@@ -83,7 +83,7 @@
   <div class="anuncio text-center">
     <h5>VENTA</h5>
 
-    <h3>VALOR DEL TICKET<p id="precioEntrada">$200</p>
+    <h3>VALOR DEL TICKET $<span id="precioEntrada">200 </span>
     </h3>
   </div>
 
@@ -119,9 +119,8 @@
         <div id="total" class="col-sm-12 btn btn-primary text-blue total">Total a pagar: </div>
       </div>
       <div class="row g-3 " display="inline-block">
-        <button type="button" class="col-sm-6 btn btn-success btn-center " id="borrar"  onClick="borrar()">Borrar</button>
-        <button type="button" class="col-sm-6 btn btn-success btn-center" id="calcularPrecio"
-          onClick="calcularPrecio()">Resumen</button>
+        <button type="button" class="col-sm-6 btn btn-success btn-center " id="borrado" onclick="borrar()">Borrar</button>
+        <button type="button" class="col-sm-6 btn btn-success btn-center" id="calcularPrecio" onclick="calcularPrecio()">Resumen</button>
 
       </div>
     </div>
