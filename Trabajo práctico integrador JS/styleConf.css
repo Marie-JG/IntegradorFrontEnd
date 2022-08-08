@@ -1,10 +1,14 @@
 
+.conf{
+  color:white;
+  font-size:30px;
+}
 #navbar1 {
     background-color: rgba(81, 78, 78, 0.87);
     
   }
   .nav-item {
-    margin: 5px;
+    margin: 4px;
   }
   
   .nav-link2 {
@@ -28,15 +32,9 @@
   }
 
 
-#buenos-aires{
-  
-  opacity:1.5;
-    
-
-}
 
 #texto-presentacion{
-    
+   
         
   padding-top: 300px;
   padding-bottom: 100px;
@@ -44,17 +42,12 @@
   padding-left: 800px;
         width: auto;
         color:white;
-        font-size:21px;
+        font-size:18px;
         text-align:right;
         
       }
-#conf{
-    float: right;
-    width: 700px;
-    color:white;
-    text-align:right;
 
-}
+
 #btn-verde{
     color:rgb(33, 191, 33);
     color:white;
@@ -81,19 +74,7 @@
     
     text-justify:normal;
 }
-.col-4 .btn{
-    padding:0px;
-} 
-.col-12{
-    width:100%;
-}
-.col-6{
-width:50%;
-margin:0;
-}
-.col-4{
-    width:33.3%;
-}
+
 #playa{
     border: solid gray 0.5px;
     margin-top:10px;
